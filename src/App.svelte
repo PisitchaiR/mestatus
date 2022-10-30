@@ -2,8 +2,8 @@
   import { InstagramIcon, FacebookIcon, GithubIcon } from "svelte-feather-icons";
 </script>
 
-<main class="bg-primary w-full min-h-screen flex items-center justify-center font-kanit">
-  <div class="rounded-md border shadow-flate p-32 text-7xl flex flex-col justify-center items-center relative duration-1000">
+<main class="bg-primary w-full h-full flex items-center justify-center font-kanit">
+  <div class="rounded-md border shadow-flate p-20 lg:p-32 text-4xl lg:text-7xl flex flex-col justify-center items-center relative duration-1000">
     <div class="flex gap-x-5 absolute top-5 left-5">
       <div class="w-6 h-6 bg-red-600 hover:bg-red-600/60 rounded-full" />
       <div class="w-6 h-6 bg-yellow-400 hover:bg-yellow-400/60 rounded-full" />

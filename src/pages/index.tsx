@@ -1,6 +1,7 @@
 import Meta from "@/components/Meta";
 import { useEffect, useState } from "react";
 import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 const Home = () => {
   const [show, setShow] = useState(false);
@@ -28,6 +29,7 @@ const Home = () => {
       setShow(true);
     }, 400 * myName.length);
   };
+
   return (
     <>
       <Meta title="Thun" />
@@ -41,15 +43,15 @@ const Home = () => {
           <article className={`flex-col gap-y-5 hidden ${show && "show"}`}>
             <p className="text-3xl">contact</p>
             <div className="flex gap-x-5 text-5xl">
-              <p>
+              <Link href="https://www.instagram.com/pisitchai_thun/">
                 <FaInstagram />
-              </p>
-              <p>
+              </Link>
+              <Link href="https://www.facebook.com/mctplo.admplo/">
                 <FaFacebook />
-              </p>
-              <p>
+              </Link>
+              <Link href="https://github.com/PisitchaiR">
                 <FaGithub />
-              </p>
+              </Link>
             </div>
           </article>
         </section>

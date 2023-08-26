@@ -9,7 +9,14 @@ body {
 
 .show {
   display: flex;
-  animation: show 2000ms;
+  animation: show 3000ms;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#bef264, #67e8f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes show {

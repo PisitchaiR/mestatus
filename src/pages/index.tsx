@@ -49,9 +49,9 @@ const Home = () => {
                   <GithubOutlined />
                 </Link>
               </div>
-              <Button size="large" type="default" href="/portfolio">
+              {/* <Button size="large" type="default" href="/portfolio">
                 Portfolio
-              </Button>
+              </Button> */}
             </div>
           </article>
         </section>
